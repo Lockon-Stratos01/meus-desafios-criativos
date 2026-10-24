@@ -1,0 +1,19 @@
+Atue como um especialista em N8N.
+
+Crie uma automação para processar um array de dados de clientes, desmembrar em itens individuais e enviar notificações personalizadas de cobrança.
+
+Público:
+Setor financeiro e base de clientes.
+
+Ferramentas envolvidas:
+N8N (Schedule Trigger, Item Lists / Split Out, Loop Over Items e nó de e-mail).
+
+Fluxo:
+1. Iniciar o fluxo com os dados de clientes em formato de array.
+2. Desmembrar o array utilizando o nó de itens para processar cada cliente individualmente.
+3. Enviar o e-mail de notificação de forma personalizada para cada cliente dentro do loop.
+
+Regras:
+Utilizar sempre os dados dinâmicos da iteração atual do loop no campo do destinatário e do corpo do e-mail, evitando referenciar dados incorretos de nós anteriores e garantindo que cada mensagem seja única para evitar filtros de spam.
+
+Explique quais nós do N8N devem ser utilizados e a lógica de funcionamento do workflow.
